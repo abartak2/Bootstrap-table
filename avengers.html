@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<!-- Create container class for body -->
+<body class="container" style="background-color:#0b42e6">
+
+    <br>
+
+    <div class="card">
+        <!-- create the form/table to contain the data -->
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group text-center text-primary">
+                        <!-- Create Lable for input box -->
+                        <label for="new-movie-name"><b>Avenger Movie</b></label>
+                        <!-- Create text input type box -->
+                        <input type="text" class="form-control" id="new-movie-name">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <!-- create button to create new team -->
+                <button id="new-movie" class="btn btn-success form-control">New Movie</button>
+            </div>
+        </div>
+    </div><br>
+    <!-- New div to contain all the movie data entered -->
+    <div id="movies">
+
+    </div>
+    
+    <script src="avengers.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
